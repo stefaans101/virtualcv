@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Stefan Venter | Portfolio</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="#hero" class="logo">SV</a>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#resume">Resume</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="hero">
+      <div class="hero-container">
+        <div class="hero-text">
+          <h1 class="hero-title">Stefan Venter</h1>
+          <p class="hero-subtitle">Aspiring IT Developer</p>
+          <div class="hero-social-links">
+            <a href="https://www.linkedin.com/in/stefan-venter-99021782" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
+            <a href="https://github.com/stefaans101" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+          </div>
+        </div>
+        <figure class="hero-image-container">
+          <img src="images/headshot.jpg" alt="Stefan headshot" class="headshot" />
+        </figure>
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="container">
+        <h2>About Me</h2>
+        <p class="about-text">I'm a meticulous person who is passionate about thinking efficiently and logically. I am passionate about learning how to build systems and solutions in the pharmaceutical field. Right now, I'm working on developing an integrated prescription system for doctors and pharmacies, which could help to greatly improve communication between practices and streamline the way in which different components in the medical field work together. Using technology like the internet, AI, and databases to address issues and improve systems for all parties involved excites me.</p>
+      </div>
+    </section>
+
+    <section id="resume">
+      <div class="container">
+        <h2>My Resume</h2>
+        <p>For a detailed look at my experience and qualifications, please download my CV.</p>
+        <a href="cv/Stefan Venter vcv.pdf" class="btn" download>Download My CV</a>
+      </div>
+    </section>
+
+    <section id="projects">
+      <div class="container">
+        <h2>My Projects</h2>
+        <div id="project-list" class="project-grid">
+          <!-- JavaScript will insert your projects here -->
+        </div>
+      </div>
+    </section>
+
+    <section id="skills">
+      <div class="container">
+        <h2>My Skills</h2>
+        <ul class="skills-list">
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+          <li>SQL</li>
+          <li>Java</li>
+          <li>C++</li>
+          <li>Python</li>
+          <li>Git & GitHub</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="container">
+        <h2>Get In Touch</h2>
+        <p>I am currently finishing my studies at the NWU and I am looking for any opportunities to gain some practical experience. Feel free to reach out!</p>
+        <form id="contact-form" action="https://formspree.io/f/your_form_id" method="POST">
+          <input type="text" name="name" placeholder="Your Name" required />
+          <input type="email" name="email" placeholder="Your Email" required />
+          <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+          <button type="submit" class="btn">Send Message</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>© 2024 Stefan Venter. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
