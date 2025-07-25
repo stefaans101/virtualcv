@@ -1,4 +1,4 @@
-# virtualcv
+# Virtual CV Stefan Vetner
 Webpage portfolio for Stefan Venter
 
 The objective of this website is to give anyone easy access to information on Stefan Venter in a professional and attractive setting.
@@ -16,3 +16,4 @@ images
   headshot.jpg
 js
   script.js
+README.md
